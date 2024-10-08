@@ -80,3 +80,6 @@ button.btn:hover {
 .form-links a{
   color: #fff;
 }
+.form-links :hover{
+  color: #54d97a;
+}
