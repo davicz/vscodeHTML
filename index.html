@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon"
+    href="https://th.bing.com/th/id/R.04e33237cd1126fb72a0e03acedb80fa?rik=dOuMfI7uH1UPsw&riu=http%3a%2f%2fedu.szf.at%2fimages%2fedu4me.png&ehk=rUkmZNqWfePUDO1MfO%2bPEpzOb4ky6xB5jQnhtGNaSTo%3d&risl=&pid=ImgRaw&r=0">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1>Login</h1>
+
+      <form id="login-form">
+        <div class="input-group">
+          <label for="cpf">CPF:</label>
+          <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+        </div>
+
+        <div class="form-links">
+          <a href="#">Esqueceu sua senha?</a>
+          <a href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+        </div>
+
+        <button id="submit-btn" type="submit" class="btn">Entrar</button>
+        <p id="error-message" class="error"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
