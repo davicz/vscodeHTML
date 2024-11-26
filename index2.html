@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon"
+    href="https://th.bing.com/th/id/R.04e33237cd1126fb72a0e03acedb80fa?rik=dOuMfI7uH1UPsw&riu=http%3a%2f%2fedu.szf.at%2fimages%2fedu4me.png&ehk=rUkmZNqWfePUDO1MfO%2bPEpzOb4ky6xB5jQnhtGNaSTo%3d&risl=&pid=ImgRaw&r=0">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h1>Recuperação</h1>
+
+      <form id="login-form">
+        <div class="input-group">
+          <label for="pergunta-seguranca">Escolha uma pergunta de segurança:</label>
+          <select id="pergunta-seguranca" name="pergunta-seguranca" required>
+               <option value="">Selecione uma pergunta</option>
+               <option value="qual-o-nome-do-seu-primeiro-animal-de-estimacao">Qual o nome
+                    do seu primeiro animal de estimação?</option>
+               <option value="dia-marcante">Qual o dia mais marcante da sua vida?</option>
+               <option value="Qual-foi-o-primeiro-show-que-voce-assistiu">Qual foi o
+                    primeiro show que voce assistiu?</option>
+               <option value="qual-o-nome-do-seu-primeiro-carro">Qual foi o nome do seu
+                    primeiro carro?</option>
+               <option value="em-que-cidade-seus-pais-se-conheceram">Em que cidade seus
+                    pais se conheceram?</option>
+               <option value="qual-desenho-voce-odiava-na-infancia">Qual desenho você
+                    odiava na infância?</option>
+          </select>
+     </div>
+
+        <div class="input-group">
+          <label for="password">Resposta escolhida:</label>
+          <input type="password" id="password" name="password" placeholder="Digite a resposta" required>
+        </div>
+
+        <button id="submit-btn" type="submit" class="btn">Entrar</button>
+        <p id="error-message" class="error"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
